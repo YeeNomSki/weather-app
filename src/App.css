@@ -1,0 +1,105 @@
+body {
+  font-family: "Bookman Old Style";
+}
+
+.wrapper {
+  background: linear-gradient(to left, #add8e6, #ffffff);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  height: auto;
+}
+
+input[type="text"] {
+  background-color: transparent;
+  border: 0;
+  border-bottom: solid 2px #4c4ca6;
+  width: 30%;
+  padding-bottom: 4px;
+  color: #000000 !important;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+button {
+  border: 0;
+  padding: 8px 20px;
+  margin: 0 2px;
+  border-radius: 2px;
+  letter-spacing: 1px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: #000080;
+  color: #fff;
+  font-weight: 100;
+}
+.title {
+  font-size: 50px;
+  letter-spacing: 2px;
+  line-height: 1;
+  color: #0000cc;
+}
+
+.subtitle {
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  line-height: 1.5;
+  color: #0000b2;
+}
+
+.location {
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  color: #0000e5;
+}
+
+.temp_main {
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+
+.temp_low {
+  font-size: 16px;
+  color: #4c4cff;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+
+.temp_high {
+  font-size: 16px;
+  color: #0000cc;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+
+.condition {
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+.wind {
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+
+.humidity {
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+.error_message{
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  color: red;
+}
